@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px) {
+    #mygrid {
+        display: -ms-grid;
+        margin: 3px;
+        -ms-grid-columns: 100%;
+        /*one column taking full width */
+        -ms-grid-rows: 70px auto auto auto;
+        /*4 rows */
+    }
+    #myheader {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    #block1 {
+        -ms-grid-row: 2;
+        /*place into row 2 / column 1*/
+        -ms-grid-column: 1;
+    }
+    #block2 {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    #block3 {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+}
